@@ -81,14 +81,16 @@
           <div class="body-text">3. Scripting: game logic and mechanics, event handling.  </div>
           <div class="body-text">4. Audio: sound effects, music.  </div>
           <div class="body-text">5. UI: text display, buttons </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-          <div class="body-text"> </div>
-        </div>
+          <div class="body-text">The Hotel’s board consists of 2 to 4 players with money, plots, buildings/hotels, two hexahedral D6 dices (a regular hexahedral used for movement and payment and a specialized hexahedral dice used for building permits) and a path with nodes, on which the players move. </div>
+          <div class="body-text">The game is played in rounds and the movement of each player in each round is determined by rolling a normal hexahedral D6 dice. The hotel can be played by 1 to 2 players, and their purpose is to buy plots, build buildings/hotels on them and put entrances on the nodes of the path, so their opponents may land on these nodes and pay for overnights until they have no other property (money and hotels) and lose. </div>
+          <div class="body-text">During the rounds the players pass from these “Pass-Through Points”. Every time players pass the “Gain Money Point”, they receive a certain amount from the bank. Every time players pass the Buy Entrance Point, they can buy (only if they want) one entrance for each plot on which they have already built at least one building.  </div>
+          <div class="body-text">When players do not have enough money to pay for overnights at a hotel or build a building while the building permission was approved, they go into bankruptcy and lose. The last player with hotels and money is declared the winner. </div>
+          <div class="body-text">The components for the graphics were 3d models found online for the Player Characters, the Buildings, the Dice, the Trees, the Road Signs and some picture used as Sprites. </div>
+          <div class="body-text">Concerning the Physics components, the Players have rigid Bodies and colliders to interact with the passthrough points and the Dice have rigid Bodies, colliders and physic material to work properly. </div>
+          <div class="body-text">The Game involves two player cameras that follow each player when he moves, one main camera showing the game from a side view, one other camera showing the game from above (which is only enabled when the player builds entrances and a camera showing the Dice. </div>
+          <div class="body-text">For the UI multiple panels were created; One panel for the visual feedback and one with the player options that take care of the interactions between the player and the game.  One panel that changes the “View” (camera) and mutes the sound. Two collapsible Panels show the Money and Regions each player owns and if he is the active player. </div>
+          <div class="body-text">The audio is just background music playing, with the ability to be muted. </div>
+          </div>
       </div>
 
       <!-- IMAGE GALLERY -->
