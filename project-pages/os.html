@@ -68,9 +68,9 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Technical University Database</div>
-        <div class="body-text">Implementation of a database for a polytechnic department.</div>
-        <image class="project-header-image" src="../assets/images/flowchart.png">
+        <div class="main-title">Operating System project</div>
+        <div class="body-text"> A project that required a group of 3 to implement some extensions to the kernel of a simple operating system, called tinyos-3, that runs as a process on Linux and uses simulated resources.</div>
+        <image class="project-header-image" src="../assets/images/tinyos.png">
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -83,17 +83,19 @@
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-         <div class="body-text">Database Description: The database contains data related to the department&#8217;s operation, following given specifications. An ER diagram, PostgreSQL relational database implementation, and initial data are provided.</div>
-         <div class="body-text">Data Management: Functions for inserting personal data, grades, proposed enrollments, and semester courses are to be created in PostgreSQL.</div>
-         <div class="body-text">Data Retrieval and Calculations: Functions for retrieving data and calculating grades for students, courses, laboratories, and sectors are to be developed in PostgreSQL.</div>
-         <div class="body-text">Java Application: Use of Eclipse and JDBC to connect to a PostgreSQL server and offer a menu of options for various operations, such as inserting, updating, deleting, and displaying data from the database. The application also handles transactions and exceptions.</div>
-         <div class="body-text">Updatable Views: The project requires creating an updatable view on one of the tables of the database that is considered useful and testing its functionality. It also requires creating a complex view that shows all the labs of the department with their directors, contact emails, titles, fields, and sectors.</div>
-        
+         <div class="body-text">Simulated computer: The simulated computer that tinyos-3 manages, which offers a low-level API for accessing its resources, such as CPU cores, terminals, clock, etc. The computer offers a low-level API for accessing its resources, implemented by firmware called BIOS.</div>
+         <div class="body-text">Tinyos-3 files: The files that contain the code of the current version of tinyos-3 and the ones that need to be extended. The files are categorized into executable files, simulator files, application files, system files, and auxiliary files.</div>
+         <div class="body-text">Developing tools: The tools that are needed for developing and testing the code, such as gcc compiler, make utility, tmux program, etc.</div>
+         <div class="body-text">Simulated computer diagram: The image shows the schematic diagram of the simulated computer that runs tinyos-3. It consists of cores, interrupts, barrier, inter-core interrupt, programmable interrupt controller (PIC), clock, and universal asynchronous receiver-transmitter (UART).</div>
+         <div class="body-text">Priority scheduler: The first part of the assignment was to implement a priority scheduler based on the multilevel feedback queues algorithm. The algorithm uses an array of queues, one for each priority level. Each thread has a priority field, which determines the queue it belongs to. The priority is adjusted according to the thread’s behavior and the first element of the highest priority non-empty queue is selected as the next thread.</div>
+         <div class="body-text">Processes: The second part was to convert tinyos-3 processes to multithreaded ones. </div>
+         <div class="body-text">The third part was to implement two process communication mechanisms, pipes and sockets.</div>
+         <div class="body-text">The final part was to implement a user program that prints information about the system to standard output.</div>
+
         </div>
       </div>
 
-
-
+   
     <!-- FOOTER -->
     <div id="footer">
       <!-- 
