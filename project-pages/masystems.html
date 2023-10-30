@@ -87,7 +87,10 @@
          <div class="body-text">Multivariate normal model:Users and items can be modelled as multivariate normal distributions, using mean vectors and covariance matrices. Data and parameters are provided for 1000 synthetic users and 500 synthetic items.</div>
          <div class="body-text">Similarity metric and rating: Use of Kullback-Leibler divergence criterion to measure the similarity between two multivariate normal distributions, and define the rating of a user for an item based on this criterion.</div>
          <div class="body-text">Social choice mechanisms: They can be used to recommend an item or a set of items to a group of users, such as Borda count, Copeland method, and Reweighted Approval Voting. The properties and benefits of these mechanisms are presented.</div>
-         <div class="body-text">Cost and budget considerations: Each item has a cost and each user has a budget. We found the feasible items for a group and distributed the cost among the group members. We also proposed a metric to measure the users&#8217; satisfaction based on their ratings and costs.</div>
+         <div class="body-text">We used two different mechanisms, Borda Count and Copeland Count, to suggest an item for each group based on their preference lists. Then we compared the average ratings of the users for the suggested items and found that Borda Count performs better in most cases. We also implemented the Reweighted Approval Voting mechanism to recommend k items to the group and discussed its benefits. </div>
+         <div class="body-text">We implemented a way to generate similar and divergent groups based on the Pearson Correlation Coefficient metric.We rerun the previous task with these groups and compare the average ratings of the users for the suggested items. We found that similar groups have higher satisfaction than divergent groups, but not by much </div>
+         <div class="body-text">Cost and budget considerations: Each item has a cost and each user has a budget. We found the feasible items for a group and designed a mechanism that fairly divides the total cost of an item among the users in a group, based on their budget and their rating on this item. We also proposed a metric to measure the users&#8217; satisfaction based on their ratings and costs.</div>
+
        
 
         </div>
